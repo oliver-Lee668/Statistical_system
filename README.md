@@ -1,1 +1,2 @@
-# Statistical_system
+#Statistical_system
+这是一个网站流量统计分析系统里的统计分析程序，将逐行消费日志的goroutine数据通过channel传递给一组日志解析的goroutine，再将日志解析的goroutine数据通过channel传递给（UV、PV）统计的goroutine，最后将统计的goroutine数据通过channel传递给数据存储的goroutine。
